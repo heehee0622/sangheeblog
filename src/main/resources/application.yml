@@ -1,0 +1,51 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /blog
+spring:
+  profiles:
+    active : PRODUCTION
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    driver-class-name: org.h2.Driver
+    url:  jdbc:h2:tcp://localhost/~/test
+    username: sa
+    password: 
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    open-in-view: true
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      use-new-id-generator-mappings: false
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+logging:
+  file: ./log
+  level:
+    com.sanghee.test: info
+    org:
+      hibernate: info
+      descriptor: info
+      sql: trace
+common:
+  forbiddenWord: 도박,코로나,자금,계좌,부동산
+  forbiddenScript: <script>,&lt;script&gt;
+  writeLimitByDay: 5
+mail:
+  hostname: smtp.gmail.com
+  port: 465
+  username: xxxxxx@gmail.com
+  password: xxxxxx
+  sslyn: Y
+  timeout: 6500

@@ -1,0 +1,143 @@
+2020:10:24 21:45:19.951 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : Starting SangheeblogApplication on LAPTOP-OGDEGV4C with PID 18668 (C:\wsblog\sangheeblog\target\classes started by 이상희 in C:\wsblog\sangheeblog) 
+2020:10:24 21:45:19.955 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : The following profiles are active: PRODUCTION 
+2020:10:24 21:45:20.244 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2020:10:24 21:45:20.273 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2020:10:24 21:45:22.186 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2020:10:24 21:45:22.395 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 194ms. Found 4 JPA repository interfaces. 
+2020:10:24 21:45:23.433 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+2020:10:24 21:45:23.465 INFO  --- [restartedMain] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"] 
+2020:10:24 21:45:23.486 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:24 21:45:23.486 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:24 21:45:23.966 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:24 21:45:23.975 INFO  --- [restartedMain] o.a.c.c.C.[.[localhost].[/blog] : Initializing Spring embedded WebApplicationContext 
+2020:10:24 21:45:23.976 INFO  --- [restartedMain] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3697 ms 
+2020:10:24 21:45:24.330 INFO  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting... 
+2020:10:24 21:45:24.408 INFO  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed. 
+2020:10:24 21:45:24.504 INFO  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2020:10:24 21:45:24.665 INFO  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.18.Final} 
+2020:10:24 21:45:24.668 INFO  --- [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found 
+2020:10:24 21:45:24.905 INFO  --- [restartedMain] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2020:10:24 21:45:25.171 INFO  --- [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2020:10:24 21:45:26.342 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:24 21:45:27.525 INFO  --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory 
+2020:10:24 21:45:27.937 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@426ffd58, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f6110e4, org.springframework.security.web.header.HeaderWriterFilter@7092c178, org.springframework.security.web.csrf.CsrfFilter@404e2006, org.springframework.security.web.authentication.logout.LogoutFilter@cb26f8c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@45bcd3a7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7180749e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4dba396e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c9897f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70b2ccec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5969e105, org.springframework.security.web.session.SessionManagementFilter@3f2d5f6b, org.springframework.security.web.access.ExceptionTranslationFilter@13f0ba6b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34ad71a8] 
+2020:10:24 21:45:28.053 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:24 21:45:28.366 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:24 21:45:28.411 INFO  --- [restartedMain] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"] 
+2020:10:24 21:45:28.692 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '/blog' 
+2020:10:24 21:45:28.695 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : Started SangheeblogApplication in 10.66 seconds (JVM running for 15.388) 
+2020:10:24 21:45:44.214 INFO  --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/blog] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:24 21:45:44.215 INFO  --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:24 21:45:44.227 INFO  --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet : Completed initialization in 11 ms 
+2020:10:24 21:46:31.312 INFO  --- [http-nio-8080-exec-1] c.s.t.s.controller.HomeController : This is User Blog Page Request 
+2020:10:24 21:46:31.325 INFO  --- [http-nio-8080-exec-1] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner Start.member:0 
+2020:10:24 21:46:31.340 INFO  --- [http-nio-8080-exec-1] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner End.member:0 
+2020:10:24 21:46:31.359 INFO  --- [http-nio-8080-exec-1] c.s.t.s.service.HackerNewsService : HackerNewsService Start. member: 0 
+2020:10:24 21:46:34.081 INFO  --- [http-nio-8080-exec-1] c.s.t.s.service.HackerNewsService : new story total count : 500 
+2020:10:24 21:46:35.740 INFO  --- [http-nio-8080-exec-1] c.s.t.s.service.HackerNewsService : HackerNewsService End. member: 0 
+2020:10:24 21:46:35.740 INFO  --- [http-nio-8080-exec-1] c.s.t.s.controller.HomeController : This is User Blog Page Completed 
+2020:10:24 21:46:35.782 INFO  --- [http-nio-8080-exec-1] c.s.t.s.c.exception.ErrorController : error occured: 404Bad Request. 
+2020:10:24 21:47:32.970 INFO  --- [http-nio-8080-exec-8] c.s.t.s.controller.HomeController : This is User Blog Page Request 
+2020:10:24 21:47:32.971 INFO  --- [http-nio-8080-exec-8] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner Start.member:0 
+2020:10:24 21:47:32.974 INFO  --- [http-nio-8080-exec-8] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner End.member:0 
+2020:10:24 21:47:32.976 INFO  --- [http-nio-8080-exec-8] c.s.t.s.service.HackerNewsService : HackerNewsService Start. member: 0 
+2020:10:24 21:47:33.595 INFO  --- [http-nio-8080-exec-8] c.s.t.s.service.HackerNewsService : new story total count : 500 
+2020:10:24 21:47:35.287 INFO  --- [http-nio-8080-exec-8] c.s.t.s.service.HackerNewsService : HackerNewsService End. member: 0 
+2020:10:24 21:47:35.288 INFO  --- [http-nio-8080-exec-8] c.s.t.s.controller.HomeController : This is User Blog Page Completed 
+2020:10:24 21:47:35.293 INFO  --- [http-nio-8080-exec-8] c.s.t.s.c.exception.ErrorController : error occured: 404Bad Request. 
+2020:10:24 21:48:37.333 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : Starting SangheeblogApplication on LAPTOP-OGDEGV4C with PID 15964 (C:\wsblog\sangheeblog\target\classes started by 이상희 in C:\wsblog\sangheeblog) 
+2020:10:24 21:48:37.337 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : The following profiles are active: PRODUCTION 
+2020:10:24 21:48:37.577 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2020:10:24 21:48:37.577 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2020:10:24 21:48:39.745 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2020:10:24 21:48:39.913 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156ms. Found 4 JPA repository interfaces. 
+2020:10:24 21:48:40.775 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+2020:10:24 21:48:40.793 INFO  --- [restartedMain] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"] 
+2020:10:24 21:48:40.804 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:24 21:48:40.805 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:24 21:48:41.149 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:24 21:48:41.155 INFO  --- [restartedMain] o.a.c.c.C.[.[localhost].[/blog] : Initializing Spring embedded WebApplicationContext 
+2020:10:24 21:48:41.156 INFO  --- [restartedMain] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3578 ms 
+2020:10:24 21:48:41.438 INFO  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting... 
+2020:10:24 21:48:41.496 INFO  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed. 
+2020:10:24 21:48:41.581 INFO  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2020:10:24 21:48:41.688 INFO  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.18.Final} 
+2020:10:24 21:48:41.690 INFO  --- [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found 
+2020:10:24 21:48:41.906 INFO  --- [restartedMain] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2020:10:24 21:48:42.114 INFO  --- [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2020:10:24 21:48:43.018 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:24 21:48:43.966 INFO  --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory 
+2020:10:24 21:48:44.471 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61c1e35d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1dac79ae, org.springframework.security.web.header.HeaderWriterFilter@4549fba1, org.springframework.security.web.authentication.logout.LogoutFilter@2bc7a7a9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@40be8c69, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2516c595, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@235666c6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d9eba28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d11519, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@340f6c6d, org.springframework.security.web.session.SessionManagementFilter@30edf177, org.springframework.security.web.access.ExceptionTranslationFilter@55d4309e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@251c6221] 
+2020:10:24 21:48:44.593 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:24 21:48:45.039 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:24 21:48:45.090 INFO  --- [restartedMain] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"] 
+2020:10:24 21:48:45.453 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '/blog' 
+2020:10:24 21:48:45.457 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : Started SangheeblogApplication in 9.758 seconds (JVM running for 13.014) 
+2020:10:24 21:49:16.900 INFO  --- [http-nio-8080-exec-9] o.a.c.c.C.[.[localhost].[/blog] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:24 21:49:16.901 INFO  --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:24 21:49:16.912 INFO  --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet : Completed initialization in 11 ms 
+2020:10:24 21:49:25.310 INFO  --- [http-nio-8080-exec-4] c.s.t.s.controller.HomeController : This is User Blog Page Request 
+2020:10:24 21:49:25.323 INFO  --- [http-nio-8080-exec-4] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner Start.member:0 
+2020:10:24 21:49:25.335 INFO  --- [http-nio-8080-exec-4] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner End.member:0 
+2020:10:24 21:49:25.351 INFO  --- [http-nio-8080-exec-4] c.s.t.s.service.HackerNewsService : HackerNewsService Start. member: 0 
+2020:10:24 21:49:27.465 INFO  --- [http-nio-8080-exec-4] c.s.t.s.service.HackerNewsService : new story total count : 500 
+2020:10:24 21:49:29.175 INFO  --- [http-nio-8080-exec-4] c.s.t.s.service.HackerNewsService : HackerNewsService End. member: 0 
+2020:10:24 21:49:29.175 INFO  --- [http-nio-8080-exec-4] c.s.t.s.controller.HomeController : This is User Blog Page Completed 
+2020:10:24 21:49:29.213 INFO  --- [http-nio-8080-exec-4] c.s.t.s.c.exception.ErrorController : error occured: 404Bad Request. 
+2020:10:24 21:49:32.062 INFO  --- [http-nio-8080-exec-2] c.s.t.s.controller.HomeController : This is User Blog Page Request 
+2020:10:24 21:49:32.064 INFO  --- [http-nio-8080-exec-2] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner Start.member:0 
+2020:10:24 21:49:32.072 INFO  --- [http-nio-8080-exec-2] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner End.member:0 
+2020:10:24 21:49:32.074 INFO  --- [http-nio-8080-exec-2] c.s.t.s.service.HackerNewsService : HackerNewsService Start. member: 0 
+2020:10:24 21:49:32.245 INFO  --- [http-nio-8080-exec-2] c.s.t.s.service.HackerNewsService : new story total count : 500 
+2020:10:24 21:49:33.872 INFO  --- [http-nio-8080-exec-2] c.s.t.s.service.HackerNewsService : HackerNewsService End. member: 0 
+2020:10:24 21:49:33.872 INFO  --- [http-nio-8080-exec-2] c.s.t.s.controller.HomeController : This is User Blog Page Completed 
+2020:10:24 21:49:33.876 INFO  --- [http-nio-8080-exec-2] c.s.t.s.c.exception.ErrorController : error occured: 404Bad Request. 
+2020:10:24 21:51:09.753 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : Starting SangheeblogApplication on LAPTOP-OGDEGV4C with PID 1684 (C:\wsblog\sangheeblog\target\classes started by 이상희 in C:\wsblog\sangheeblog) 
+2020:10:24 21:51:09.759 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : The following profiles are active: PRODUCTION 
+2020:10:24 21:51:10.092 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2020:10:24 21:51:10.093 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2020:10:24 21:51:12.135 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2020:10:24 21:51:12.294 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150ms. Found 4 JPA repository interfaces. 
+2020:10:24 21:51:13.325 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+2020:10:24 21:51:13.349 INFO  --- [restartedMain] o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"] 
+2020:10:24 21:51:13.363 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:24 21:51:13.364 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:24 21:51:13.854 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:24 21:51:13.863 INFO  --- [restartedMain] o.a.c.c.C.[.[localhost].[/blog] : Initializing Spring embedded WebApplicationContext 
+2020:10:24 21:51:13.864 INFO  --- [restartedMain] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3771 ms 
+2020:10:24 21:51:14.172 INFO  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting... 
+2020:10:24 21:51:14.242 INFO  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed. 
+2020:10:24 21:51:14.333 INFO  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2020:10:24 21:51:14.465 INFO  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.18.Final} 
+2020:10:24 21:51:14.468 INFO  --- [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found 
+2020:10:24 21:51:14.650 INFO  --- [restartedMain] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2020:10:24 21:51:14.890 INFO  --- [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2020:10:24 21:51:15.734 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:24 21:51:16.494 INFO  --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory 
+2020:10:24 21:51:16.887 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b789deb, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f5226d, org.springframework.security.web.header.HeaderWriterFilter@33bfc25c, org.springframework.security.web.authentication.logout.LogoutFilter@7759d776, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28106cf1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27e94118, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@19d7c0d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@217f8da0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5519ded5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77bd161d, org.springframework.security.web.session.SessionManagementFilter@3669da97, org.springframework.security.web.access.ExceptionTranslationFilter@671457b3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32fbccdf] 
+2020:10:24 21:51:17.034 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:24 21:51:17.182 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:24 21:51:17.608 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:24 21:51:17.673 INFO  --- [restartedMain] o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"] 
+2020:10:24 21:51:17.964 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '/blog' 
+2020:10:24 21:51:17.969 INFO  --- [restartedMain] c.s.t.s.SangheeblogApplication : Started SangheeblogApplication in 9.846 seconds (JVM running for 12.958) 
+2020:10:24 21:56:52.556 INFO  --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/blog] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:24 21:56:52.557 INFO  --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:24 21:56:52.574 INFO  --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 17 ms 
+2020:10:24 21:57:00.415 INFO  --- [http-nio-8080-exec-4] c.s.t.s.controller.HomeController : This is User Blog Page Request 
+2020:10:24 21:57:00.430 INFO  --- [http-nio-8080-exec-4] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner Start.member:0 
+2020:10:24 21:57:00.446 INFO  --- [http-nio-8080-exec-4] c.s.t.s.s.b.BoardGetServiceRunner : BoardGetServiceRunner End.member:0 
+2020:10:24 21:57:00.464 INFO  --- [http-nio-8080-exec-4] c.s.t.s.service.HackerNewsService : HackerNewsService Start. member: 0 
+2020:10:24 21:57:02.526 INFO  --- [http-nio-8080-exec-4] c.s.t.s.service.HackerNewsService : new story total count : 500 
+2020:10:24 21:57:04.167 INFO  --- [http-nio-8080-exec-4] c.s.t.s.service.HackerNewsService : HackerNewsService End. member: 0 
+2020:10:24 21:57:04.170 INFO  --- [http-nio-8080-exec-4] c.s.t.s.controller.HomeController : This is User Blog Page Completed 
+2020:10:24 21:57:09.900 INFO  --- [http-nio-8080-exec-5] c.s.t.s.controller.BoardController : User:1 board contents get list request: board :34 
+2020:10:24 21:57:09.905 INFO  --- [http-nio-8080-exec-5] c.s.t.s.s.c.ContentGetListServiceRunner : ContentGetListServiceRunner Start.member:1 board: 34 
+2020:10:24 21:57:09.949 INFO  --- [http-nio-8080-exec-5] c.s.t.s.s.c.ContentGetListServiceRunner : ContentGetListServiceRunner End.member:1 board: 34 
+2020:10:24 21:57:09.952 INFO  --- [http-nio-8080-exec-5] c.s.t.s.controller.BoardController : User:1 board contents get list completed: board :34 
