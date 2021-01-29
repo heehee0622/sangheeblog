@@ -20,6 +20,7 @@ spring:
     hibernate:
       ddl-auto: none
       naming:
+#        기본변수를 DB 컬럼이름에 그대로 사용
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       use-new-id-generator-mappings: false
     show-sql: true
